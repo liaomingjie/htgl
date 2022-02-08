@@ -7,7 +7,7 @@
       ></CategorySelector>
     </el-card>
     <el-card style="margin-top:20px">
-      <!-- 这个div是spu列表的界面 -->
+     
       <div v-show="!isShowSpuForm && !isShowSkuForm">
         <el-button
           :disabled="!category3Id"
